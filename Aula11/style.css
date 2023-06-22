@@ -1,0 +1,46 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12pt;
+}
+
+body {
+    background: #eee;
+    margin: 0;
+}
+
+div.navbar {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+div.navbar-logo img {
+    height: 32px;
+}
+
+div.feed {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 32px;
+    margin: 32px auto;
+    width: 500px;
+}
+
+div.post img.post-image {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+div.post img.post-icon {
+    height: 32px;
+    width: 32px;
+}
+
+div.post {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}

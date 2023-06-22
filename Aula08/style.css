@@ -1,0 +1,46 @@
+body {
+    background: #222;
+    color: #aaa;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 500px;
+}
+
+div.cabecalho {
+    background: linear-gradient(35deg, #2c3d66, #4286f4);
+    padding: 64px 0;
+}
+
+div.cabecalho-titulo {
+    color: #222;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.principal {
+    background: #333;
+    padding: 16px;
+}
+
+div.artigo {
+    margin-bottom: 32px;
+}
+
+div.artigo-titulo {
+    font-size: 18pt;
+    margin: 16px 0;
+    text-align: center;
+}
+
+div.artigo-conteudo {
+    letter-spacing: 1px;
+}
+
+div.artigo-publicacao,
+div.artigo-autor {
+    color: #4286f4;
+    margin: 8px 0;
+    text-align: right;
+}
+

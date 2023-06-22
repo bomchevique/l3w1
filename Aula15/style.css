@@ -1,0 +1,44 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+    font-size: 14pt;
+    margin: 0 auto;
+    width: 600px;
+}
+
+div.topo {
+    background: #fff;
+    box-shadow: 0 0 8px #aaa;
+    font-size: 40pt;
+    margin: 20px 0;
+    padding: 30px;
+    text-align: center;
+}
+
+div.menu {
+    background: #fff;
+    box-shadow: 0 0 8px #aaa;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+div.principal {
+    background: #fff;
+    box-shadow: 0 0 8px #aaa;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+div.quadrado {
+    background: #f5dc70;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    display: flex;
+    color: #222;
+    height: 150px;
+    justify-content: center;
+    width: 150px;
+}

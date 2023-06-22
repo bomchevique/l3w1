@@ -1,0 +1,85 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: #111;
+    color: #eee;
+    margin: 0;
+}
+
+div.topo {
+    background: url("./background.gif");
+    background-size: cover;
+    height: 80vh;
+}
+
+div.topo-menu {
+    align-items: center;
+    background: linear-gradient(black, transparent);
+    display: flex;
+    padding: 16px 32px;
+}
+
+div.topo-menu img {
+    height: 48px;
+}
+
+div.topo-menu-links a {
+    color: #eee;
+    padding: 32px;
+    text-decoration: none;
+}
+
+div.topo-destaque {
+    display: flex;
+    flex: 1;
+}
+
+div.topo-destaque div {
+    flex: 1;
+}
+
+div.topo-destaque-texto {
+    padding: 32px;
+}
+
+div.topo-destaque img {
+    margin-top: 64px
+}
+
+div.sessao {
+    margin: 32px 0;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+div.sessao-interno {
+    display: flex;
+    gap: 32px;
+    padding: 16px;
+}
+
+div.sessao-interno img {
+    border-radius: 8px;
+    box-shadow: 0 0 12px black;
+    height: 200px;
+    object-fit: cover;
+    min-width: 360px;
+    transition: 0.5s;
+}
+
+div.sessao-interno img:not(:hover) {
+    filter: blur(5px) grayscale(1) brightness(0.2);
+    transition: 0.5s;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+}

@@ -1,0 +1,39 @@
+body {
+    background: #222;
+    color: #fff;
+    width: 400px; 
+}
+
+div.cabeca {
+    border: 2px solid #ff7418;
+    color: #ff7418;
+    font-weight: bold;
+    font-size: 24pt; 
+    margin: 16px; 
+    padding: 16px;
+}
+
+div.tempo {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 16px;
+    padding: 16px;
+    text-align: center; 
+}
+
+div.conteudo {
+    background: #854e2f;
+    border: 8px dashed #ff7418;
+    color: #222;
+    font-size: 18pt;
+    font-style: italic;
+    margin: 16px;
+    padding: 32px;
+}
+
+div.assinatura {
+    font-family: cursive;
+    font-style: italic;
+    color: #ff7418;
+    text-align: right;
+}

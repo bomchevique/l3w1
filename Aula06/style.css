@@ -1,0 +1,20 @@
+body {
+    background: #aaa;
+    color: #ffff00;
+}
+
+h1 {
+    color: red;
+    font-family: cursive;
+}
+
+h2 {
+    color: crimson;
+    font-family: sans-serif;
+}
+
+p {
+    background: #b41183;
+    color: #0e9ed6;
+    font-family: serif;
+}

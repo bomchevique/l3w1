@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+        <title> Instagrão </title>
+
+        <link rel="shortcut icon" href="./favicon.jpg" type="image/jpg"/>
+
+        <link rel="stylesheet" href="./style.css"/>
+
+    </head>
+
+    <body>
+        
+        <div class="navbar">
+
+            <div class="navbar-logo">
+
+                <img src="./Logo.png" alt="Instagrão"/>
+
+            </div>
+
+            <div class="navbar-icons">
+
+                <img src="./house-simple.png" alt="Início"/>
+
+                <img src="./heart.png" alt="Coração"/>
+
+                <img src="./user.png" alt="Usuário"/>
+
+            </div>
+            
+        </div>
+
+        <div class="feed">
+
+            <div class="post">
+                <div class="post-author"> Elen Mush </div>
+                <img class="post-image" src="https://picsum.photos/800/800" alt="imagem"/>
+                <button onclick="Gostar();">
+                    <img class="post-icon" src="./heart.png" alt="Coração">
+                    <span> 50 </span>
+                </button>
+            </div>
+
+            <div class="post">
+                <div class="post-author"> Mark Zukembola </div>
+                <img class="post-image" src="https://picsum.photos/800/800" alt="imagem"/>
+                <button onclick="Gostar();">
+                    <img class="post-icon" src="./heart.png" alt="Coração">
+                    <span> 70 </span>
+                </button>
+            </div>
+
+            <div class="post">
+                <div class="post-author"> Jeff Beijos </div>
+                <img class="post-image" src="https://picsum.photos/800/800" alt="imagem"/>
+                <button onclick="Gostar();">
+                    <img class="post-icon" src="./heart.png" alt="Coração">
+                    <span> 110 </span>
+                </button>
+            </div>
+
+        </div>
+
+        <script>
+            
+            var contador = 0;
+
+            function Gostar() {
+
+                contador += 1;
+
+                alert(contador);
+
+            }
+
+        </script>
+
+    </body>
+
+</html>
